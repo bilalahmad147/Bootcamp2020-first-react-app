@@ -1,7 +1,12 @@
 .header{
+  height: 500px;
   text-align: center;
   color: darkblue;
+  background-color: darkcyan;
 }
 .header>button{
   cursor: pointer;
+}
+.daylight{
+  background-color: floralwhite;
 }
