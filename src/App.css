@@ -1,12 +1,13 @@
 .header{
   height: 500px;
   text-align: center;
-  color: darkblue;
   background-color: darkcyan;
+  color: white;
 }
 .header>button{
   cursor: pointer;
 }
 .daylight{
   background-color: floralwhite;
+  color: darkblue;
 }

@@ -1,12 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-function Message(props){
-    // let [morning,setmorning]= useState(morning ? {})
-
-    return(
-        <h3>value of count variable : {props.counter}</h3>
-        // <button onClick={()=> }>Change Mood</button>
-    );
+const Message = (props) => {
+  return (
+  <h3>this is counting number : {props.counter}</h3>
+  );
 }
 
 export default Message;
