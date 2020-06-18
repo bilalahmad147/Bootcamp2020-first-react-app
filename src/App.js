@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import ReactDOM from 'react-dom';
 import Parent from './parent';
 import counterContext from './counterContext';
 
@@ -11,7 +10,7 @@ const App = () => {
   return (
     <counterContext.Provider value={countState}>
       <div>
-        <Parent name={'Bilal ahmad'} />
+        <Parent />
       </div>
     </counterContext.Provider>
   );
