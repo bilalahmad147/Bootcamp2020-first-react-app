@@ -1,11 +1,8 @@
-import React, { reducer } from 'react';
-
-const CounterReaducer = (state, action)=>{
-    return(
-        <div>
-
-        </div>
-    )
+const CounterReaducer = (state, action) => {
+    switch (action) {
+        case 'INCREAMENT':
+            return state + 1;
+    }
 }
 
 export default CounterReaducer;

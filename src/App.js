@@ -4,7 +4,7 @@ import Parent from './parent';
 import counterContext from './counterContext';
 
 const App = () => {
-  let countState = useState(0);
+  let countState = useState(1);
 
 
   return (
